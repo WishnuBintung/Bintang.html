@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>presensi sd banguntapan kelas 2</h1>
+
+    <!-- Menampilkan Gambar -->
+    <h2>Gambar</h2>
+    <img src="https://th.bing.com/th/id/OIP.uAgXfo1-TfuEnW6WZgyYwwHaE8?rs=1&pid=ImgDetMain">
+
+    <!-- Menampilkan Tabel -->
+    <h2>Daftar Tabel</h2>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>soetris</td>
+            <td>bantul</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>mulyono</td>
+            <td>banguntapan</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ahmad Fauzi</td>
+            <td>pleret</td>
+        </tr>
+    </table>
+
+    <!-- Menampilkan Formulir -->
+    <h2>Formulir Pengisian</h2>
+    <form action="#" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+</body>
+</html>
